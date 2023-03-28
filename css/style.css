@@ -1,3 +1,32 @@
+#header-img {
+	height: 50px;
+  }
+  
+  #nav-bar {
+	position: absolute;
+  top: 0;
+  right: 0;
+  }
+  
+  .nav-link {
+	padding: 10px;
+  }
+  
+  #video-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: lightgray;
+  }
+  
+  #video-container {
+	width: 80%;
+  }
+  
+  #video {
+	width: 100%;
+  }
 @media screen and (mid-width: 480px){
     body{
         background-color: lightblue;
