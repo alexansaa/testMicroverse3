@@ -21,11 +21,15 @@
   }
   
   #video-container {
-	width: 80%;
+	width: 60%;
   }
   
+  #how-it-works > iframe {
+    max-width: 560px;
+    width: 100%;
+}
   #video {
-	width: 100%;
+	width: 90%;
   }
 @media screen and (mid-width: 480px){
     body{
