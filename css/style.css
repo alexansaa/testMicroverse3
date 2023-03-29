@@ -1,42 +1,36 @@
 #header-img {
-	height: 50px;
-  }
-  
-  #nav-bar {
-	position: absolute;
-  top: 0;
-  right: 0;
-  }
-  
-  .nav-link {
-	padding: 10px;
-  }
-  
-  #video-section {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-	background-color: lightgray;
-  }
-  
-  #video-container {
-	width: 60%;
-  }
-  
-  #how-it-works > iframe {
-    max-width: 560px;
-    width: 100%;
+     height: 50px;
 }
-  #video {
-	width: 90%;
-  }
-@media screen and (mid-width: 480px){
-    body{
-        background-color: lightblue;
+ #nav-bar {
+     position: absolute;
+     top: 0;
+     right: 0;
+}
+ .nav-link {
+     padding: 10px;
+}
+ #video-section {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background-color: lightgray;
+}
+ #video-container {
+     width: 60%;
+}
+ #how-it-works > iframe {
+     max-width: 560px;
+     width: 100%;
+}
+ #video {
+     width: 90%;
+}
+ @media screen and (mid-width: 480px){
+     body{
+         background-color: lightblue;
     }
 }
-
-body{
-    background-color: lightgreen;
+ body{
+     background-color: lightgreen;
 }
