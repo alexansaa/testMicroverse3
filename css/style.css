@@ -1,3 +1,6 @@
+.box{
+  display: flex;
+}
 #header{
   overflow: hidden;
   position: fixed;
@@ -8,42 +11,42 @@
   float: left;
   display: block;
   text-align: center;
-
 }
 #header-img {
-     height: 50px;
+  height: 50px;
 }
 #nav-bar {
-     position: absolute;
-     top: 0;
-     right: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
- .nav-link {
-     padding: 10px;
+.nav-link {
+  padding: 10px;
 }
- #video-section {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     height: 100vh;
-     background-color: lightgray;
+#video-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightgray;
 }
- #video-container {
-     width: 60%;
+#video-container {
+  width: 60%;
 }
- #how-it-works > iframe {
-     max-width: 560px;
-     width: 100%;
+#how-it-works > iframe {
+  max-width: 560px;
+  width: 100%;
 }
- #video {
-     width: 90%;
+#video {
+  width: 90%;
 }
 @media screen and (min-width: 480px) {
 	body {
 	  background-color: lightblue;
 	}
-  }
-
- body{
-     background-color: lightgreen;
 }
+
+body{
+  background-color: lightgreen;
+}
+

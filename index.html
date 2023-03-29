@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <style>
       @media screen and (min-width: 480px) {
         body {
@@ -26,34 +26,32 @@
         </ul>
       </nav>
     </div>
-
-    <section id="pricing">
-      <h2>Pricing</h2>
-      <ul>
-        <li>Plan 1</li>
-        <li>Plan 2</li>
-        <li>Plan 3</li>
-      </ul>
-    </section>
-
-    <section id="video-section">
+    <div id="video-section">
       <div id="video-container">
-        <iframe id="video" height="315"
-       src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen>
-          </iframe>
+        <iframe id="video" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen>
+        </iframe>
       </div>
-    </section>
-
-   
-    
-
-    <section id="email-section">
-      <form id="form" action="https://www.freecodecamp.com/email-submit" method="get">
-        <input name="email" requiered id="email" type="email" placeholder="axxx@gmail.com">
-        <button name="submit_btn" id="submit" value="submit" form="form">Submit</button>
-      </form>
-    </section>
-
+    </div>
+    <div class="box">
+      <div>
+        <section id="pricing">
+          <h2>Pricing</h2>
+          <ul>
+            <li>Plan 1</li>
+            <li>Plan 2</li>
+            <li>Plan 3</li>
+          </ul>
+        </section>
+      </div>
+      <div>
+        <section id="email-section">
+          <form id="form" action="https://www.freecodecamp.com/email-submit" method="get">
+            <input name="email" requiered id="email" type="email" placeholder="axxx@gmail.com">
+            <button name="submit_btn" id="submit" value="submit" form="form">Submit</button>
+          </form>
+        </section>
+      </div>
+    </div>
     <script src="js/index.js"></script>
     <script src="js/personalLogic.js"></script>
   </body>
